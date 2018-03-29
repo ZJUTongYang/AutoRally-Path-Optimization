@@ -72,7 +72,7 @@ def animate(npy_array, name):
         return circs,
 
     anim = animation.FuncAnimation(fig, animate, init_func=init, frames=len(Xs), interval=20, blit=True)
-    anim.save(save_as, fps=50, writer='ffmpeg', bitrate=2500)
+    #anim.save(save_as, fps=50, writer='ffmpeg', bitrate=2500)
 
 
 if __name__ == "__main__":
